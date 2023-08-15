@@ -119,6 +119,14 @@ console.log(diceArray);
 // exercise 4
 //  write a function that will return the factorial of a number e.g. myFunction(5) will return 120 i.e. 5*4*3*2*1
 
+// With FOR LOOP
+function factorialR(number) {
+  let result = 1;
+  for (let i = number; i >= 1; i -= 1) {
+    result *= i;
+  }
+  return result;
+}
 
 
 function factorial(n) {
@@ -127,6 +135,7 @@ function factorial(n) {
 }
 
 console.log(factorial(5));
+console.log(factorialR(5));
 
 // exercise 5
 // Clock shows h hours, m minutes and s seconds after midnight.
